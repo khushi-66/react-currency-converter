@@ -21,7 +21,7 @@ A simple and responsive **Currency Converter Web App** built using React. This a
 
 ### 🔹 Mobile View 
 
-![Mobile Screenshot](./screenshots/mobile.png)
+![Mobile Screenshot](./screenshots/mobile.jpeg)
 
 ---
 
