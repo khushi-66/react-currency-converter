@@ -26,6 +26,7 @@ console.log(  "options : ",options);
   style={{backgroundImage:`url('https://images.pexels.com/photos/1301976/pexels-photo-1301976.jpeg')`}}
   className='w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat'>
     <div   className='w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30'>
+   <h1 className='text-center text-white bg-blue-700 rounded-lg mt-0 mb-7 p-4'  style={{fontSize:"32px"}}>Currency Converter App</h1>
     <form onSubmit={(e)=>{
         e.preventDefault();
         convert();
