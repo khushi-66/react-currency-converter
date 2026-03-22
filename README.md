@@ -97,7 +97,7 @@ This project uses a currency exchange API to fetch real-time data.
 Example:
 
 ```js
-fetch(`https://api.exchangerate-api.com/v4/latest/USD`)
+fetch(`[https://latest.currency-api.pages.dev/v1/currencies/usd.json]`)
 ```
 
 ---
