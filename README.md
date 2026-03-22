@@ -6,23 +6,22 @@ A simple and responsive **Currency Converter Web App** built using React. This a
 
 ## 🚀 Live Demo
 
-🔗 https://react-currency-converter (Add your deployed link here)
-
+🔗 https://khushi-66.github.io/react-currency-converter/
 ---
 
 ## 📸 Screenshots
 
 ### 🔹 Home Page
 
-![Home Screenshot](./assets/home.png)
+![Home Screenshot](./screenshots/home.png)
 
 ### 🔹 Currency Conversion
 
-![Conversion Screenshot](./assets/conversion.png)
+![Conversion Screenshot](./screenshots/conversion.png)
 
-### 🔹 Mobile View (Optional)
+### 🔹 Mobile View 
 
-![Mobile Screenshot](./assets/mobile.png)
+![Mobile Screenshot](./screenshots/mobile.png)
 
 ---
 
@@ -39,9 +38,9 @@ A simple and responsive **Currency Converter Web App** built using React. This a
 ## 🛠️ Tech Stack
 
 * **Frontend:** React.js
-* **Styling:** CSS / Tailwind (update if used)
+* **Styling:** CSS / Tailwind 
 * **API:** Currency Exchange API
-* **Build Tool:** Vite / CRA (update if used)
+* **Build Tool:** Vite 
 
 ---
 
@@ -55,8 +54,9 @@ react-currency-converter/
 │   ├── hooks/
 │   ├── App.jsx
 │   └── main.jsx
-│── assets/        # Screenshots folder
+│── screenshots/        # Screenshots folder
 │── package.json
+│── assests/
 │── README.md
 ```
 
