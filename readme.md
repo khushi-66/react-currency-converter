@@ -6,22 +6,23 @@ A simple and responsive **Currency Converter Web App** built using React. This a
 
 ## 🚀 Live Demo
 
-🔗 https://khushi-66.github.io/react-currency-converter/
+🔗 https://react-currency-converter (Add your deployed link here)
+
 ---
 
 ## 📸 Screenshots
 
 ### 🔹 Home Page
 
-![Home Screenshot](./screenshots/home.png)
+![Home Screenshot](./assets/home.png)
 
 ### 🔹 Currency Conversion
 
-![Conversion Screenshot](./screenshots/conversion.png)
+![Conversion Screenshot](./assets/conversion.png)
 
-### 🔹 Mobile View 
+### 🔹 Mobile View (Optional)
 
-![Mobile Screenshot](./screenshots/mobile.jpeg)
+![Mobile Screenshot](./assets/mobile.png)
 
 ---
 
@@ -38,9 +39,9 @@ A simple and responsive **Currency Converter Web App** built using React. This a
 ## 🛠️ Tech Stack
 
 * **Frontend:** React.js
-* **Styling:** CSS / Tailwind 
+* **Styling:** CSS / Tailwind (update if used)
 * **API:** Currency Exchange API
-* **Build Tool:** Vite 
+* **Build Tool:** Vite / CRA (update if used)
 
 ---
 
@@ -54,9 +55,8 @@ react-currency-converter/
 │   ├── hooks/
 │   ├── App.jsx
 │   └── main.jsx
-│── screenshots/        # Screenshots folder
+│── assets/        # Screenshots folder
 │── package.json
-│── assests/
 │── README.md
 ```
 
@@ -97,7 +97,7 @@ This project uses a currency exchange API to fetch real-time data.
 Example:
 
 ```js
-fetch(`[https://latest.currency-api.pages.dev/v1/currencies/usd.json]`)
+fetch(`https://api.exchangerate-api.com/v4/latest/USD`)
 ```
 
 ---
