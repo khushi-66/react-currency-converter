@@ -1,56 +1,119 @@
 # 💱 React Currency Converter
 
-A simple and responsive **Currency Converter Web App** built using React. This application allows users to convert currencies in real-time using live exchange rates.
+![React](https://img.shields.io/badge/React-18-blue)
+![API](https://img.shields.io/badge/API-Live%20Exchange%20Rates-green)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+A modern and responsive **Currency Converter Web Application** built using **React**, enabling users to convert currencies in real-time using live exchange rates from an external API.
 
 ---
 
 ## 🚀 Live Demo
 
-🔗 https://khushi-66.github.io/react-currency-converter/
+🌐 **Live App:** https://khushi-66.github.io/react-currency-converter/
+
+📂 **GitHub Repository:** https://github.com/khushi-66/react-currency-converter
+
+---
+
+## 🎥 Live Preview
+
+![App Demo](./screenshots/demo.gif)
+
+---
+
+## 📌 Overview
+
+This project demonstrates real-world implementation of **API integration** and **dynamic state management** in React.
+
+It showcases:
+
+* Fetching live exchange rates from an external API
+* Managing asynchronous data using React Hooks
+* Real-time UI updates based on user input
+* Clean and responsive interface design
+
+---
+
+## 🧠 Key Learnings
+
+* Handling API calls using `fetch` / async logic
+* Managing state using `useState`
+* Handling side effects using `useEffect`
+* Building reusable components
+* Working with dynamic data rendering
+
 ---
 
 ## 📸 Screenshots
 
-### 🔹 Home Page
+### 🏠 Home Interface
 
-![Home Screenshot](./screenshots/home.png)
+![Home](./screenshots/home.jpeg)
 
-### 🔹 Currency Conversion
+### 💱 Currency Conversion
 
-![Conversion Screenshot](./screenshots/conversion.jpeg)
+![Conversion](./screenshots/conversion.jpeg)
 
-### 🔹 Currency Dropdown
+### 🔽 Currency Dropdown
 
-![Currency List](./screenshots/dropdown.png)
+![Dropdown](./screenshots/dropdown.jpeg)
 
-### 🔹 Mobile View 
+### 📱 Mobile View
 
-![Mobile Screenshot](./screenshots/mobile.jpeg)
+![Mobile](./screenshots/mobile.jpeg)
 
 ---
 
 ## ✨ Features
 
 * 🌍 Real-time currency conversion
-* 🔄 Swap currencies easily
+* 🔄 Swap currencies instantly
 * ⚡ Fast and responsive UI
+* 🔢 Accurate exchange rates via API
 * 📱 Mobile-friendly design
-* 🔢 Accurate exchange rates using API
+* 🎯 Clean and intuitive interface
+
+---
+
+## ⚡ Performance & Optimization
+
+* Optimized API calls using efficient state updates
+* Minimal re-renders using proper state handling
+* Lightweight and fast UI rendering
+* Smooth user experience with instant updates
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** React.js
-* **Styling:** CSS / Tailwind 
-* **API:** Currency Exchange API
-* **Build Tool:** Vite 
+| Technology            | Usage          |
+| --------------------- | -------------- |
+| **React.js**          | Frontend       |
+| **JavaScript (ES6+)** | Logic          |
+| **CSS / Tailwind**    | Styling        |
+| **Currency API**      | Exchange rates |
+| **Vite**              | Build tool     |
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using **GitHub Pages**, making it publicly accessible worldwide.
+
+### 🚀 Deployment Process:
+
+* Built the React app for production
+* Configured deployment via GitHub Pages
+* Hosted directly from the repository
+* Generated a live public URL
 
 ---
 
 ## 📂 Project Structure
 
-```
+```bash
 react-currency-converter/
 │── public/
 │── src/
@@ -58,9 +121,9 @@ react-currency-converter/
 │   ├── hooks/
 │   ├── App.jsx
 │   └── main.jsx
-│── screenshots/        # Screenshots folder
+│── screenshots/
+│── assets/
 │── package.json
-│── assests/
 │── README.md
 ```
 
@@ -68,70 +131,32 @@ react-currency-converter/
 
 ## ⚙️ Installation & Setup
 
-1. Clone the repository
-
 ```bash
 git clone https://github.com/khushi-66/react-currency-converter.git
-```
-
-2. Navigate to project folder
-
-```bash
 cd react-currency-converter
-```
-
-3. Install dependencies
-
-```bash
 npm install
-```
-
-4. Run the app
-
-```bash
 npm run dev
 ```
 
 ---
 
-## 🔌 API Integration
+## 📈 Future Improvements
 
-This project uses a currency exchange API to fetch real-time data.
-
-Example:
-
-```js
-fetch(`[https://latest.currency-api.pages.dev/v1/currencies/usd.json]`)
-```
-
----
-
-## 📌 Future Improvements
-
-* 📊 Add historical data charts
+* 📊 Currency trends & charts
 * ⭐ Favorite currencies
 * 🌐 Multi-language support
-* 💾 Save last used currencies
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork this repo and submit a pull request.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
+* 💾 Save last selected currencies
+* 🔔 Rate alerts
 
 ---
 
 ## 👩‍💻 Author
 
 **Khushi Sahu**
-🔗 GitHub: https://github.com/khushi-66
+🔗 https://github.com/khushi-66
 
 ---
 
-⭐ If you like this project, don’t forget to star the repo!
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
