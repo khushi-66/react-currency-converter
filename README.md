@@ -50,7 +50,7 @@ It showcases:
 
 ### 🏠 Home Interface
 
-![Home](./screenshots/home.jpeg)
+![Home](./screenshots/home.png)
 
 ### 💱 Currency Conversion
 
@@ -58,7 +58,7 @@ It showcases:
 
 ### 🔽 Currency Dropdown
 
-![Dropdown](./screenshots/dropdown.jpeg)
+![Dropdown](./screenshots/dropdown.png)
 
 ### 📱 Mobile View
 
